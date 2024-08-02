@@ -1,0 +1,20 @@
+.card{
+    background: #fde5c7;
+    border-radius: 20px;
+    margin: 40px 0 60px 0;
+    border: 3px solid #FFFFFF;
+    padding: 25px 40px;
+    text-align: center;
+}
+.card h6{
+    color: #1f1f1f;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 25px;
+    white-space: nowrap;
+}
+.no_img{
+    background-color: #fde5c7;
+    width: 150px;
+}

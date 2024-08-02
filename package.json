@@ -1,0 +1,36 @@
+{
+  "name": "perswell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anurag-17/Perswell.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anurag-17/Perswell/issues"
+  },
+  "homepage": "https://github.com/anurag-17/Perswell#readme",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.363.0",
+    "@aws-sdk/credential-provider-node": "^3.363.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "deep-email-validator": "^0.1.21",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0",
+    "nodemailer": "^6.9.3",
+    "socket.io": "^4.7.0"
+  },
+  "proxy": "http://localhost:3000/"
+}

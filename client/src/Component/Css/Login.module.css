@@ -1,0 +1,208 @@
+.logintop {
+  /* height: 100vh; */
+  /* width: 100%; */
+  /* background: linear-gradient(
+    133deg,
+    rgba(252, 208, 154, 1),
+    rgba(253, 244, 233, 1)
+  ); */
+}
+
+.logincontainer {
+  /* width: 80%; */
+  /* margin: 0 auto; */
+}
+
+.Ellipse1 {
+  width: 59px;
+  height: 59px;
+  background: rgb(230, 135, 19);
+  border-radius: 9999px;
+  text-align: center;
+  color: white;
+  font-size: 12.24px;
+  font-family: Poppins;
+  font-weight: 600;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Perswell {
+  text-align: center;
+  color: #1f1f1f;
+  font-size: 16.32px;
+  font-family: Poppins;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.InvestInWhatMattersYourPeople {
+  color: #1f1f1f;
+  font-size: 9.52px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.headers {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.logotext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.centerbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.WelcomeToPerswell {
+  text-align: center;
+  color: #1f1f1f;
+  font-size: 35px;
+  font-family: Poppins;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-top: 70px;
+}
+
+.Rectangle {
+  width: 708px;
+  height: 554px;
+  background: #fde5c7;
+  border-radius: 20px;
+  /* border-left: 1.5px white solid;
+  border-top: 1.5px white solid;
+  border-right: 1.5px white solid;
+  border-bottom: 1.5px white solid; */
+  /* margin-top: 40px; */
+  margin: 40px 0 60px 0;
+  border: 3px solid #FFFFFF;
+  padding: 25px 0;
+}
+
+.formheading {
+  text-align: center;
+  color: #1F1F1F;
+  font-size: 25px;
+  font-family: Poppins;
+  font-weight: 500;
+  word-wrap: break-word;
+  line-height: 37.5px;
+}
+
+.loginform {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 554px;
+  justify-content: space-evenly;
+}
+
+input::-webkit-input-placeholder {
+  font-family: 'roboto', sans-serif;
+  transition: all 0.3s ease-in-out;
+  color: #1F1F1F;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+input  {
+  /* margin: 10px 25px; */
+  width: 400px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px black;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, black 4%);
+  background-position: -400px 0;
+  background-size: 400px 100% !important;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+input:focus {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: black;
+  font-size: 10px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+
+.submitbutton {
+  width: 150.25px;
+  height: 40.9px;
+  background: #E68713;
+  border-Radius: 41.7px;
+  font: 13.36px;
+  color: #FFFFFF;
+  line-height: 20.03px;
+  font-weight: 600px;
+  font-family: Poppins;
+}
+
+.submitbutton:hover {
+  color: #E68713;
+  border: 1px solid #E68713;
+  background: #FFFFFF;
+}
+
+/* new css  */
+.logo_img {
+  width: 233px;
+  height: auto;
+}
+
+.errorText {
+  font-weight: 400;
+  color: red;
+  font-size: 14px;
+  font-family: Poppins;
+  margin: 5px 25px;
+}
+
+.custom_input {
+  border: none;
+  width: 400px;
+  padding: 10px 0;
+  border-bottom: solid 1px black;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, black 4%);
+  background-position: -400px 0;
+  background-size: 400px 100% !important;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  .Rectangle {
+    width: 100%;
+  }
+  .custom_input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 670px) {
+ 
+}
